@@ -1,5 +1,5 @@
 # cartola
-Um app para futebol
+Um aplicativo para futebol
 
 ## Dicas
 
