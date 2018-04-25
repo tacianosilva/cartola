@@ -1,5 +1,5 @@
 # cartola
-Um app para futebol
+Um aplicativo para futebol. Desenvolvido para fins de aprendizado dos discentes de Engenharia de Software II.
 
 ## Dicas
 
