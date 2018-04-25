@@ -1,0 +1,2 @@
+Arquivo de teste para merge do branch teste1.
+Arquivo de teste para merge do branch teste2.
