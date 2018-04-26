@@ -8,14 +8,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.SequenceGenerator;
  
 @Entity
 public class Player {
  
     @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "player_Sequence")
-    @SequenceGenerator(name = "player_Sequence", sequenceName = "PLAYER_SEQ")
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
  
     @Column(name = "name")

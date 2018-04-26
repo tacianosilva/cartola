@@ -10,14 +10,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.SequenceGenerator;
  
 @Entity
 public class Team {
  
     @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "team_Sequence")
-    @SequenceGenerator(name = "team_Sequence", sequenceName = "TEAM_SEQ")
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
  
     @Column(name = "name")
