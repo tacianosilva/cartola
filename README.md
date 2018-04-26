@@ -1,12 +1,20 @@
-# cartola
-Um app para futebol
+# CartolaAPP
 
-## Dicas
+Cartola - Aplicativo para Campeonato de Futebol. Exemplo desenvolvido para a disciplina Engenharia de Software II.
 
-Usa o maven para fazer build.
+## Execução
+
+Esse projeto faz uso do framework spring-boot que encapsula todas as dependências no arquivo jar.
+
+1. mvn clean
+2. mvn clean install
+3. Go to the target folder
+4. java -jar cartola-0.0.1-SNAPSHOT.jar
+
+# Dicas
 
 ## Link
 
-* https://franckaragao.wordpress.com/2016/08/23/integracao-continua-com-o-travis-ci-em-projetos-java-usando-o-maven/
+* http://programmergate.com/spring-boot-jpa-hibernate-oracle/
 
-estou com preguiça de criar outro arquivo
+* https://franckaragao.wordpress.com/2016/08/23/integracao-continua-com-o-travis-ci-em-projetos-java-usando-o-maven/
