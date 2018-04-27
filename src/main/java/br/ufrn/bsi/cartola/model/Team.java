@@ -16,7 +16,7 @@ import javax.persistence.SequenceGenerator;
 public class Team {
  
     @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "team_Sequence")
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @SequenceGenerator(name = "team_Sequence", sequenceName = "TEAM_SEQ")
     private Long id;
  
