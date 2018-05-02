@@ -15,11 +15,7 @@ import javax.persistence.OneToMany;
 public class Team {
  
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-<<<<<<< HEAD
-    @SequenceGenerator(name = "team_Sequence", sequenceName = "TEAM_SEQ")
-=======
->>>>>>> upstream/master
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
  
     @Column(name = "name")

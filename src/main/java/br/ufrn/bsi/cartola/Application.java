@@ -6,11 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> upstream/master
 import br.ufrn.bsi.cartola.service.SoccerService;
  
 @SpringBootApplication
@@ -27,10 +23,6 @@ public class Application implements CommandLineRunner{
     public void run(String... arg0) throws Exception {
         
         soccerService.addBarcelonaPlayer("Xavi Hernandez", "Midfielder", 6);
-<<<<<<< HEAD
-        soccerService.addBarcelonaPlayer("Wesley Safadão", "Midfielder", 2);
-=======
->>>>>>> upstream/master
         
         List<String> players = soccerService.getAllTeamPlayers(1);
         
@@ -38,8 +30,4 @@ public class Application implements CommandLineRunner{
             System.out.println("Introducing Barca player => " + player);
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> upstream/master
