@@ -16,12 +16,24 @@ public class SoccerServiceImpl implements SoccerService {
  
     @Autowired
     private PlayerRepository playerRepository;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> upstream/master
     @Autowired
     private TeamRepository teamRepository;
  
     public List<String> getAllTeamPlayers(long teamId) {
+<<<<<<< HEAD
         List<String> result = new ArrayList<String>();
         List<Player> players = playerRepository.findByTeamId(teamId);
+=======
+        
+        List<String> result = new ArrayList<String>();
+        
+        List<Player> players = playerRepository.findByTeamId(teamId);
+        
+>>>>>>> upstream/master
         for (Player player : players) {
             result.add(player.getName());
         }
@@ -38,6 +50,10 @@ public class SoccerServiceImpl implements SoccerService {
         newPlayer.setPosition(position);
         newPlayer.setNum(number);
         newPlayer.setTeam(barcelona);
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
         playerRepository.save(newPlayer);
     }
 }
