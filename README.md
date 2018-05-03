@@ -1,6 +1,7 @@
-# CartolaAPP
+# CartolaAPP [![Build Status](https://travis-ci.org/tacianosilva/cartola.svg?branch=master)](https://travis-ci.org/tacianosilva/cartola)
 
-Cartola - Aplicativo para Campeonato de Futebol. Exemplo desenvolvido para a disciplina Engenharia de Software II.
+Cartola - Aplicativo para Campeonato de Futebol. Exemplo desenvolvido para a disciplina 
+Engenharia de Software II.
 
 ## Execução
 
