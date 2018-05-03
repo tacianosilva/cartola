@@ -6,5 +6,5 @@ public interface SoccerService {
     
     public List<String> getAllTeamPlayers(long teamId);
     
-    public void addBarcelonaPlayer(String name, String position, int number);
+    public void addPlayer(String name, String position, int number, Long team);
 }

@@ -33,9 +33,9 @@ public class SoccerServiceImpl implements SoccerService {
         return result;
     }
  
-    public void addBarcelonaPlayer(String name, String position, int number) {
+    public void addPlayer(String name, String position, int number, Long team) {
         
-        Team barcelona = teamRepository.findOne(1l);
+        Team barcelona = teamRepository.findOne(team);
         
         Player newPlayer = new Player();
         newPlayer.setName(name);
