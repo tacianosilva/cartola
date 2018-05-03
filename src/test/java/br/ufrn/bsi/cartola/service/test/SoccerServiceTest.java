@@ -21,7 +21,7 @@ import br.ufrn.bsi.cartola.service.SoccerService;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration
-@ComponentScan("br.ufrn.bsi.cartola.service")
+@ComponentScan("br.ufrn.bsi.cartola")
 @DataJpaTest
 public class SoccerServiceTest {
     
